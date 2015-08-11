@@ -1,0 +1,67 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@mipmap/add"
+        android:orderInCategory="100"
+        android:title="添加"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@mipmap/delete"
+        android:orderInCategory="100"
+        android:title="删除"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_listview"
+        android:orderInCategory="100"
+        android:title="ListView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_GridView"
+        android:orderInCategory="100"
+        android:title="GridView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_hor_GridView"
+        android:orderInCategory="100"
+        android:title="横向"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_staggered"
+        android:orderInCategory="100"
+        android:title="瀑布流"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_outitem"
+        android:orderInCategory="100"
+        android:title="缩放动画"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_outbottom"
+        android:orderInCategory="100"
+        android:title="从下飞入飞出"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_outleft"
+        android:orderInCategory="100"
+        android:title="从左飞入飞出"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_outright"
+        android:orderInCategory="100"
+        android:title="从右飞入飞出"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_outtop"
+        android:orderInCategory="100"
+        android:title="从上飞入飞出"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_outssright"
+        android:orderInCategory="100"
+        android:title="缩放从右飞入飞出"
+        app:showAsAction="never" />
+</menu>
