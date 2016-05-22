@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <com.scp.topbar.TopBar
+            android:id="@+id/main_topbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            custom:leftBackground="@android:color/darker_gray"
+            custom:leftTitle="左边"
+            custom:leftTitleColor="@android:color/holo_red_light"
+            custom:rightBackground="@android:color/darker_gray"
+            custom:rightTitle="右边"
+            custom:rightTitleColor="@android:color/holo_blue_bright"
+            custom:topTitle="宋春鹏"
+            custom:topTitleColor="#ffaaaa00"
+            custom:topTitleSize="10sp"></com.scp.topbar.TopBar>-->
+
+    <include layout="@layout/topbar"></include>
+
+</RelativeLayout>

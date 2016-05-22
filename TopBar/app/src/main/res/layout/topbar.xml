@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scp.topbar.TopBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topbar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/holo_orange_light"
+    custom:leftBackground="@android:color/transparent"
+    custom:leftTitle="左"
+    custom:leftTitleColor="@android:color/holo_blue_bright"
+    custom:leftVisible="false"
+    custom:rightBackground="@android:color/transparent"
+    custom:rightTitle="右"
+    custom:rightTitleColor="@android:color/holo_green_light"
+    custom:rightVisible="false"
+    custom:topTitle="我是标题"
+    custom:topTitleColor="@color/colorAccent"
+    custom:topTitleSize="12sp"
+    custom:topTitleVisible="true">
+
+</com.scp.topbar.TopBar>

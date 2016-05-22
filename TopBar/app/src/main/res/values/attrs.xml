@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBar">
+        <!-- 标题 -->
+        <attr name="topTitle" format="string"></attr>
+        <!-- 标题文字大小 -->
+        <attr name="topTitleSize" format="dimension"></attr>
+        <!-- 标题文字颜色 -->
+        <attr name="topTitleColor" format="color"></attr>
+        <!-- 标题是否显示 -->
+        <attr name="topTitleVisible" format="boolean"></attr>
+        <!-- 左边文字 -->
+        <attr name="leftTitle" format="string"></attr>
+        <!-- 左边文字颜色 -->
+        <attr name="leftTitleColor" format="color"></attr>
+        <!-- 左边背景 -->
+        <attr name="leftBackground" format="reference"></attr>
+        <!-- 左边是否显示 -->
+        <attr name="leftVisible" format="boolean"></attr>
+        <!-- 右边文字 -->
+        <attr name="rightTitle" format="string"></attr>
+        <!-- 右边文字颜色 -->
+        <attr name="rightTitleColor" format="color"></attr>
+        <!-- 右边背景 -->
+        <attr name="rightBackground" format="reference"></attr>
+        <!-- 右边是否显示 -->
+        <attr name="rightVisible" format="boolean"></attr>
+    </declare-styleable>
+</resources>
